@@ -1,0 +1,15 @@
+include ~/.config/i3/workspaces.conf
+include ~/.config/i3/appearance.conf
+include ~/.config/i3/keymaps.conf
+include ~/.config/i3/windowrules.conf
+include ~/.config/i3/autostart.conf
+
+focus_follows_mouse yes
+
+# Open hint pane
+bindsym Mod1+h exec --no-startup-id ~/.config/hintpane/launch-hint-pane.sh
+
+# Make hint pane float and look nice
+for_window [class="hintpane"] floating enable, sticky enable, border pixel 2
+
+exec -no-startup-id xterm
