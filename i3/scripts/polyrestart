@@ -1,2 +1,0 @@
-#!/bin/bash
-pkill polybar;polybar full & disown;polybar example & disown
