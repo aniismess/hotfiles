@@ -1,1 +1,0 @@
-../../../hotfiles/polybar/.config/polybar/scripts/polybar-xo-currency.py

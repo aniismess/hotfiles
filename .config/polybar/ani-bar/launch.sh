@@ -1,1 +1,0 @@
-../../../hotfiles/polybar/.config/polybar/ani-bar/launch.sh

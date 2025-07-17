@@ -1,1 +1,0 @@
-../../../hotfiles/polybar/.config/polybar/scripts/get_spotify_status.sh
