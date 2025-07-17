@@ -1,0 +1,9 @@
+# made by ani
+include ~/.config/i3/workspaces.conf
+include ~/.config/i3/appearance.conf
+include ~/.config/i3/keymaps.conf
+include ~/.config/i3/windowrules.conf
+include ~/.config/i3/autostart.conf
+
+focus_follows_mouse yes
+
