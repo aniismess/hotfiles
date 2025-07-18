@@ -16,6 +16,46 @@ This repo is a veritable cornucopia of configurations for all your favorite comm
 
 Each of these directories has its own `README.md` file, where I'll try to explain my genius-level configurations in a way that even a mere mortal can understand.
 
+## Prerequisites
+
+Before running the installation script, ensure you have the following installed on your Arch Linux system:
+
+*   **Git**: For cloning this repository.
+*   **Sudo**: For elevated privileges during package installation.
+*   **An AUR Helper**: Either `yay` or `paru` is required for automatic dependency installation.
+
+If you need to install these, you can typically do so with:
+
+```bash
+sudo pacman -S git sudo
+# For yay (example):
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+# For paru (example):
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+
+## Dependencies
+
+These dotfiles rely on several packages. The `install.sh` script will attempt to install these automatically using your detected AUR helper (`yay` or `paru`). If you prefer to install them manually, here's a list of the common dependencies:
+
+```bash
+yay -S ttf-jetbrains-mono-nerd dunst polybar nitrogen networkmanager-applet rofi fish neovim kitty picom fastfetch i3-gaps obsidian
+```
+
+## Installation
+
+To install these dotfiles, navigate to the root of this repository and run the `install.sh` script:
+
+```bash
+./install.sh
+```
+
+The script will present you with a menu to choose which dotfiles you'd like to install. It will also attempt to install necessary packages using `yay` or `paru` if available on your system. Feel free to modify these dotfiles to suit your personal preferences and workflow after installation!
+
 ## My Guiding Philosophy (or lack thereof)
 
 I'm not gonna lie, I'm mostly just making this up as I go along. But if I had to put a label on it, I'd say my philosophy is something like this:
