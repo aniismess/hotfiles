@@ -27,7 +27,7 @@ Before running the installation script, ensure you have the following installed 
 If you need to install these, you can typically do so with:
 
 ```bash
-sudo pacman -S git sudo
+sudo pacman -S git
 # For yay (example):
 git clone https://aur.archlinux.org/yay.git
 cd yay
