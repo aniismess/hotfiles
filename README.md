@@ -1,6 +1,5 @@
 # My Dotfiles:
-
-Welcome to my humble abode, where the code is clean, the configs are spicy. These are my personal dotfiles, the secret sauce that makes my development environment feel like home. I've poured countless hours into this setup, and now I'm sharing it with the world. Use it, abuse it, but please, don't make me regret it.
+ These are my personal dotfiles. I've poured countless hours into this setup, and now I'm sharing it with the world. Use it, abuse it, but please, don't make me regret it.
 
 ## What's Inside This Digital Treasure Chest?
 
