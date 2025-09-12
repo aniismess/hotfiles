@@ -1,8 +1,8 @@
-# My Dotfiles
 
-These are my personal dotfiles, I've poured countless hours into this setup, and now I'm sharing it with the world. Don't even try asking me if something goes wrong
-
-## What's Inside This Digital Treasure Chest?
+# My Dotfiles:
+ These are my personal dotfiles. I've poured countless hours into this setup, and now I'm sharing it with the world. Use it, abuse it, but please, don't make me regret it.
+ 
+## Inside This Digital Treasure Chest?
 
 This repo is a veritable cornucopia of configurations for all your favorite command-line tools:
 
